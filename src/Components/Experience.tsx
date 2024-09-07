@@ -4,7 +4,10 @@ import { ExperienceInfo } from "../User";
 
 const TimelineItem = (items: any) => {
   return items.map((item: any, index: number) => (
-    <Timeline.Item data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-in-sine"
+    <Timeline.Item 
+      data-aos="fade-up" 
+      data-aos-duration="800" 
+      data-aos-easing="ease-in-sine"
       key={index}
       bullet={<IconBriefcaseFilled className="!text-bgcolor" size={20} />}
     >
@@ -12,7 +15,7 @@ const TimelineItem = (items: any) => {
         <div className="flex items-center gap-4 mb-2">
           <img
             className="rounded-lg w-16 h-16"
-            src="NullClass.png"
+            src={`${process.env.PUBLIC_URL}/icons/NullClass.png`} // Updated path
             alt="company"
           />
           <div className="flex flex-col">
