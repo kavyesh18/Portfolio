@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Info } from "../User";
 import Typewriter from "typewriter-effect";
 import { Button } from "@mantine/core";
@@ -11,21 +10,9 @@ import { NeonGradientCard } from "./magicui/neon-gradient-card";
 
 const About = () => {
   const [opened, { open, close }] = useDisclosure(false);
-  const [pdfError, setPdfError] = useState(false);
-
-  const handlePdfDownload = () => {
-    try {
-      const pdfPath = "/icons/Badugu_Kavyesh_Raj.pdf"; // Ensure this path is correct
-      window.location.href = pdfPath;
-    } catch (error) {
-      setPdfError(true);
-      console.error("Error loading PDF:", error);
-    }
-  };
 
   return (
     <>
-      {pdfError && <div>Error loading PDF. Please try again later.</div>}
       <div
         data-aos="zoom-out-up"
         data-aos-duration="800"
@@ -69,7 +56,9 @@ const About = () => {
             </Button>
 
             <Button
-              onClick={handlePdfDownload}
+              component="a"
+              href="./Badugu_Kavyesh Raj (1).pdf"
+              download={Info.name}
               className="!text-primaryColor !w-fit"
               size="lg"
               variant="outline"

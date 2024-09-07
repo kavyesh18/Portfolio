@@ -15,7 +15,7 @@ const TimelineItem = (items: any) => {
         <div className="flex items-center gap-4 mb-2">
           <img
             className="rounded-lg w-16 h-16"
-            src={`${process.env.PUBLIC_URL}/icons/NullClass.png`} // Updated path
+            src={`${item.company}.png`} 
             alt="company"
           />
           <div className="flex flex-col">
@@ -29,7 +29,7 @@ const TimelineItem = (items: any) => {
         <div className="text-lg text-textColor font-medium">
           <span className="font-semibold text-lg text-white">Skills:</span>
           {
-            item.skills.map((skill:any, index:number)=><span key={index}> &#x2022; {skill}</span>)
+            item.skills.map((skill: any, index: number) => <span key={index}> &#x2022; {skill}</span>)
           }
         </div>
       </div>
