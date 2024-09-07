@@ -57,7 +57,7 @@ const About = () => {
 
             <Button
               component="a"
-              href={`${process.env.PUBLIC_URL}/Badugu_Kavyesh_Raj.pdf`}
+              href="Badugu_Kavyesh Raj (1).pdf"
               download={Info.name}
               className="!text-primaryColor !w-fit"
               size="lg"
