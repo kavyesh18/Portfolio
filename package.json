@@ -21,6 +21,7 @@
     "react-hot-toast": "^2.4.1",
     "react-icon-cloud": "^4.1.4",
     "react-pdf": "^9.1.0",
+    "react-pdf-viewer": "^0.1.0",
     "react-scripts": "5.0.1",
     "tailwind-merge": "^2.5.2",
     "three": "^0.167.1",

@@ -21,7 +21,7 @@ const ResumeViewer = (props: any) => {
           >
             Resume
             <Tooltip label="Download" className="!text-bgcolor" color="#64FFDA" position="right" offset={5}>
-            <ActionIcon className="text-primaryColor" component="a" href={`${process.env.PUBLIC_URL}/icons/Badugu_Kavyesh Raj (1).pdf`} download={Info.name} color="#64FFDA" variant="outline" aria-label="Settings">
+            <ActionIcon className="text-primaryColor" component="a" href={`${process.env.PUBLIC_URL}/Icons/Badugu-Kavyesh_Raj_CV.pdf`} download={Info.name} color="#64FFDA" variant="outline" aria-label="Settings">
       <IconArrowBigDownLineFilled />
     </ActionIcon>
     </Tooltip>
@@ -35,7 +35,7 @@ const ResumeViewer = (props: any) => {
         <Modal.Body className="!bg-bgcolor border-primaryColor !border-2 !border-t-0 !rounded-bl-3xl !rounded-br-3xl flex justify-center">
           <div className="overflow-hidden flex justify-center">
             <Document
-              file={`${process.env.PUBLIC_URL}/icons/Badugu_Kavyesh Raj (1).pdf`}
+              file={`${process.env.PUBLIC_URL}/Badugu_Kavyesh_Raj_CV.pdf`}
               className="flex justify-center"
             >
               <Page

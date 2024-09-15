@@ -69,7 +69,7 @@ const Contact = () => {
                 <FloatingInput id="email" name="Email" value={formData.email} handleChange={handleChange} error={formError.email} />
                 <FloatingInput id="phone" name="Phone Number" value={formData.phone} handleChange={handleChange} error={formError.phone} />
                 <FloatingInput id="message" name="Message" value={formData.message} handleChange={handleChange} error={formError.message} />
-                <Button fullWidth onClick={handleSubmit} rightSection={<IconArrowRight size={20} />} className="!text-bgColor !font-bold" variant="filled" size="md" radius="lg" color="#64FFDA">
+                <Button fullWidth onClick={handleSubmit} rightSection={<IconArrowRight size={20} />} className="!text-bgcolor !font-bold" variant="filled" size="md" radius="lg" color="#64FFDA">
                     Send
                 </Button>
             </div>
