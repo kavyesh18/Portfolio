@@ -48,7 +48,7 @@ const SkillInfo = [
     },
     {
         title:"Languages",
-        skills:["C","Java","Javascript","TypeScript"]
+        skills:["C","Java","JavaScript","TypeScript"]
     },
 
     {
