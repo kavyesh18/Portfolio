@@ -53,7 +53,7 @@ const SkillInfo = [
 
     {
         title:"Tools",
-        skills:["Git", "Github", "VS code", "MongoDB Compass", "Postman", "Spring Tool Suite"]
+        skills:["Git", "Github", "VS Code", "MongoDB Compass", "Postman", "Spring Tool Suite"]
     }
 ]
 
