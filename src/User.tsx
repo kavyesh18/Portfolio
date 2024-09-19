@@ -61,7 +61,7 @@ const SkillInfo = [
 
         {
             role:"Full Stack Web Developer Intern",
-            company:"Nullclass",
+            company:"NullClass",
             image:"NullClass.png",
             date:"June 2024-present",
             desc:"Currently pursuing a MERN stack internship at Nullclass, developing full-stack web applications and enhancing my skills in MongoDB, Express.js, React, and Node.js, while collaborating on projects to deliver efficient and scalable solutions.",
