@@ -19,8 +19,8 @@ const FullProjectModal = (props: any) => {
                 <Modal.Body className="!bg-bgcolor border-primaryColor !border-2 !border-t-0 !rounded-bl-3xl !rounded-br-3xl">
                     <Image
                         className='!rounded-xl !pt-2 !shadow-[0_0_5px_0_#64FFDA]'
-                        src={`/${props.image}`} // Path to the images directly in the public folder
-                        alt={props.title} // Use descriptive alt text
+                        src={`/${props.image}`} 
+                        alt={props.title} 
                     />
                     <Group mt="md" mb="md">
                         {props.technologies.map((tech: string, index: number) =>

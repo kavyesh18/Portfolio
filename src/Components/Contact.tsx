@@ -40,14 +40,14 @@ const Contact = () => {
 
         if (valid) {
             try {
-                // Log the form data for debugging
+                
                 console.log("Submitting data: ", formData);
                 
                 await addDoc(collection(db, "portfolio"), formData);
                 toast.success('Submitted Successfully!', { duration: 4000 });
-                setFormData(form);  // Reset form data
+                setFormData(form);  
             } catch (error) {
-                console.error("Error adding document: ", error);  // Log detailed error
+                console.error("Error adding document: ", error);  
                 toast.error('Submission failed. Please try again.', { duration: 4000 });
             }
         } else {

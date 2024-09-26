@@ -26,9 +26,9 @@ const ProjectInfo = [
         github:"github.com/kavyesh18"
     },
     {
-        title:"Employee-Management-App",
-        desc:"I developed a basic employee management system with CRUD operations using React.js for the front end and **Bootstrap** for styling to create a responsive user interface. The application communicates with a **REST API** built with **Spring Boot** on the backend, handling data requests efficiently. The backend is integrated with an **SQL** database to store and manage employee records, ensuring data consistency and integrity. This project demonstrates a full-stack approach, combining front-end technologies and server-side logic for seamless data manipulation and management.",
-        image:"employee-management.png",
+        title:"Carrer-Bridge Job Portal",
+        desc:"Developing a comprehensive job portal using React (TypeScript), Mantine, Tabler, and Tailwind CSS, integrated with a Spring Boot backend to enable dynamic user interactions. The portal features job listings and facilitates direct communication between employers and candidates, streamlining the recruitment process with a user-friendly interface for optimal navigation and engagement.",
+        image:"carrer-bridge.png",
         live:false,
         technologies:["React","Spring-Boot","MY-SQL","REST-API"],
         link:"https://github.com/kavyesh18",
@@ -53,7 +53,7 @@ const SkillInfo = [
 
     {
         title:"Tools",
-        skills:["Git", "Github", "VS Code", "MongoDB Compass", "Postman", "Spring Tool Suite"]
+        skills:["Git", "Github", "Figma", "MongoDB Compass", "Postman", "Spring Tool Suite"]
     }
 ]
 
