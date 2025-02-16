@@ -4,7 +4,6 @@ const Social = () => {
 
     const socialLinks = [{link:"https://github.com/kavyesh18",icon:IconBrandGithub},{link:"https://www.linkedin.com/in/badugu-kavyesh-raj-263697246/",icon:IconBrandLinkedin},
         {link:"https://www.instagram.com/kavyesh_raj",icon:IconBrandInstagram},
-        {link:"https://leetcode.com/u/kavyesh_raj18/",icon:IconBrandLeetcode}
     ];
 
     const socialIcons=socialLinks.map((socialLink)=>{

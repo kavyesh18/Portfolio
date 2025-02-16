@@ -34,17 +34,45 @@ const ProjectInfo = [
         link:"https://github.com/kavyesh18",
         github:"https://github.com/kavyesh18/EMPLOYEE-MANAGEMENT"
 
+    },
+    {
+        title:"AI-Nomad Travel Expense Tracker",
+        desc:"The AI Nomad Travel Expense Tracker is a smart React and Firebase-based tool that helps travelers estimate costs and track expenses in real time. By analyzing user inputs like destination and duration, it provides accurate budgeting insights, making travel planning easier and more efficient. 🚀💰",
+        image:"aitraveltracker.png",
+        live:false,
+        technologies:["React","Gen-AI","Firebase","Gemini-1.5 Flash"],
+        link:"https://github.com/kavyesh18/AI-Nomad-Travel-Expense-Tracker",
+        github:"https://github.com/kavyesh18/AI-Nomad-Travel-Expense-Tracker"
+    },
+
+    {
+        title:"Future Forge AI",
+        desc:"Future Forge AI is an AI-powered career advancement platform designed to help professionals enhance their job search and career growth. It offers automated resume building, AI-driven interview preparation, personalized cover letters, and industry trend insights to keep users ahead in their careers.",
+        image:"futureforgeai.png",
+        live:true,
+        technologies:["Next.js","Neon DB","Gen-AI","Gemini-1.5 Flash","Inngest","Prisma ORM","Clerk"],
+        link:"https://futureforgeai.vercel.app/",
+        github:"https://github.com/kavyesh18/FutureForgeAI"
+    },
+    {
+        title:"Algo Vault",
+        desc:"Alogo Vault is a AI based Finance Tracking Platform basically used for tracking the financial expenses and it also comes with an automated AI recipet Scanner Feature for scanning the receipts and track the daily expenses",
+        image:"alogvault.png",
+        live:false,
+        technologies:["Next.js","Supabase","Gen-AI","Gemini-1.5 Flash","Inngest","Prisma ORM","Clerk"],
+        link:"https://github.com/kavyesh18/AlgoVault-AI-Finance-Tracker",
+        github:"https://github.com/kavyesh18/AlgoVault-AI-Finance-Tracker"
     }
 ]
 
 const SkillInfo = [
     {
         title:"Frontend",
-        skills:["HTML", "CSS", "JavaScript", "React JS", "Tailwind CSS", "Material UI", "Bootstrap"]
+        skills:["HTML", "CSS", "JavaScript", "React JS", "Tailwind CSS", "Material UI", "Next JS"]
     },
     {
         title:"Backend",
-        skills:["Springboot", "Node JS", "Express JS", "MySQL", "MongoDB", "Firebase"]
+        skills:["Springboot", "Node JS", "Express JS", "MySQL", "MongoDB", "Firebase","Neon DB","Prisma"]
     },
     {
         title:"Languages",
@@ -60,12 +88,12 @@ const SkillInfo = [
     const ExperienceInfo = [
 
         {
-            role:"Full Stack Web Developer Intern",
-            company:"NullClass",
-            image:"NullClass.png",
-            date:"June 2024-present",
-            desc:"Currently pursuing a MERN stack internship at Nullclass, developing full-stack web applications and enhancing my skills in MongoDB, Express.js, React, and Node.js, while collaborating on projects to deliver efficient and scalable solutions.",
-            skills:["React JS","Node JS","Express JS","MongoDB", "Firebase"]
+            role:"Full Stack Intern",
+            company:"Artmac Soft LLC",
+            image:"Artmac Soft LLC.png",
+            date:"Feb 2025-present",
+            desc:"As a Full Stack Intern at Artmac Soft LLC, I work on building and enhancing web applications using React.js for dynamic and responsive UIs. I focus on UI design, ensuring intuitive and user-friendly interfaces. On the backend, I utilize MongoDB for efficient data management and storage. Additionally, I explore Machine Learning models and Spacy, a powerful NLP library, to develop intelligent and data-driven applications. This role allows me to integrate AI-driven solutions into full-stack development, enhancing both functionality and user experience. 🚀",
+            skills:["React JS","UI-Design","Spacy","Mongo-DB","Machine Learning"]
         },
     ]
 

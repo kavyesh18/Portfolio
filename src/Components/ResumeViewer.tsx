@@ -1,9 +1,12 @@
 import { ActionIcon, Modal, ScrollArea, Tooltip } from "@mantine/core";
-import {  IconArrowBigDownLineFilled } from "@tabler/icons-react";
+import { IconArrowBigDownLineFilled } from "@tabler/icons-react";
 import { Document, Page } from "react-pdf";
 import { Info } from "../User";
 
 const ResumeViewer = (props: any) => {
+
+  const pdfPath = `${process.env.PUBLIC_URL}/Icons/Badugu Kavyesh Raj CV.pdf`; 
+
   return (
     <Modal.Root
       scrollAreaComponent={ScrollArea.Autosize}
@@ -20,11 +23,25 @@ const ResumeViewer = (props: any) => {
             className="!text-4xl text-white flex gap-3 items-center !font-bold"
           >
             Resume
-            <Tooltip label="Download" className="!text-bgcolor" color="#64FFDA" position="right" offset={5}>
-            <ActionIcon className="text-primaryColor" component="a" href={`${process.env.PUBLIC_URL}/Icons/Badugu-Kavyesh_Raj_CV.pdf`} download={Info.name} color="#64FFDA" variant="outline" aria-label="Settings">
-      <IconArrowBigDownLineFilled />
-    </ActionIcon>
-    </Tooltip>
+            <Tooltip
+              label="Download"
+              className="!text-bgcolor"
+              color="#64FFDA"
+              position="right"
+              offset={5}
+            >
+              <ActionIcon
+                className="text-primaryColor"
+                component="a"
+                href={pdfPath}  
+                download={`${Info.name}.pdf`} 
+                color="#64FFDA"
+                variant="outline"
+                aria-label="Download Resume"
+              >
+                <IconArrowBigDownLineFilled />
+              </ActionIcon>
+            </Tooltip>
           </Modal.Title>
           <Modal.CloseButton
             size="md"
@@ -35,7 +52,7 @@ const ResumeViewer = (props: any) => {
         <Modal.Body className="!bg-bgcolor border-primaryColor !border-2 !border-t-0 !rounded-bl-3xl !rounded-br-3xl flex justify-center">
           <div className="overflow-hidden flex justify-center">
             <Document
-              file={`${process.env.PUBLIC_URL}/Badugu_Kavyesh_Raj_CV.pdf`}
+              file={pdfPath}
               className="flex justify-center"
             >
               <Page
