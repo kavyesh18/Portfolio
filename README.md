@@ -7,7 +7,7 @@ Welcome to my personal portfolio website! This site showcases my projects, skill
 *   React: A JavaScript library for building user interfaces.
 *   Mantine UI: A React components library with a focus on accessibility and developer experience.
 *   Tailwind CSS: A utility-first CSS framework for rapidly styling custom designs.
-*   [Additional Libraries: React Type Writer Effect , Magic UI]
+*   Additional Libraries: React Type Writer Effect , Magic UI
 
 ## Features
 
