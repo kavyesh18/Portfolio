@@ -58,7 +58,6 @@ In the project directory, you can run:
 ## Resume
 
 View and download my resume: https://drive.google.com/file/d/1DAQSgcJJ3m3K3RQzKYE39il5XWh1WDIA/view?usp=drive_link
-
 ## Contact
 
 Feel free to reach out to me!
@@ -66,3 +65,4 @@ Feel free to reach out to me!
 *   Email: kavyesh.badugu@gmail.com
 *   LinkedIn Profile: https://www.linkedin.com/in/badugu-kavyesh-raj-263697246/
 *   Instagram : https://www.instagram.com/kavyesh_raj?igsh=MWpvYjlkaWNyeGJqZQ==
+*   Live URL : https://kavyeshraj18.vercel.app/
